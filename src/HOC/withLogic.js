@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Enums, DEFAULT_STATUS_SORT } from '../components/constants';
+import { Enums, DEFAULT_STATUS_SORT } from '../constants';
 
 export const withLogic = WrappedComponent => props => {
 

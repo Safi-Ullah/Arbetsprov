@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Enums, TASK_ACTION_HANDLERS } from '../constants';
+import { Enums, TASK_ACTION_HANDLERS } from '../../constants';
 import { getKeyFromValue } from '../../utils';
 
 export const ActionsDropDown = props => {

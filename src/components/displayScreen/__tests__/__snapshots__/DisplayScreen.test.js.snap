@@ -1,0 +1,399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test on dashboard view with tasks 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row main-screen"
+  >
+    <div
+      className="col-sm"
+    >
+      <div
+        className="row"
+      >
+        <h6
+          className="text-center mt-2 text-capitalize col-sm-11"
+        >
+          deleted
+        </h6>
+        <span
+          className="d-inline-block"
+          tabIndex="0"
+          title="Sort by complexity"
+        >
+          <button
+            className="close col-sm-1"
+            onClick={[Function]}
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+            >
+              ▾
+            </span>
+          </button>
+        </span>
+      </div>
+      <ul
+        className="list-group"
+      >
+        <span
+          className="text-center text-muted"
+        >
+          No tasks 
+          deleted
+          .
+        </span>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot test on dashboard view without any tasks 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row main-screen"
+  >
+    <div
+      className="col-sm"
+    >
+      <div
+        className="row"
+      >
+        <h6
+          className="text-center mt-2 text-capitalize col-sm-11"
+        >
+          created
+        </h6>
+        <span
+          className="d-inline-block"
+          tabIndex="0"
+          title="Sort by complexity"
+        >
+          <button
+            className="close col-sm-1"
+            onClick={[Function]}
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+            >
+              ▾
+            </span>
+          </button>
+        </span>
+      </div>
+      <ul
+        className="list-group"
+      >
+        <span
+          className="text-center text-muted"
+        >
+          No tasks 
+          created
+          .
+        </span>
+      </ul>
+    </div>
+    <div
+      className="col-sm"
+    >
+      <div
+        className="row"
+      >
+        <h6
+          className="text-center mt-2 text-capitalize col-sm-11"
+        >
+          active
+        </h6>
+        <span
+          className="d-inline-block"
+          tabIndex="0"
+          title="Sort by complexity"
+        >
+          <button
+            className="close col-sm-1"
+            onClick={[Function]}
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+            >
+              ▾
+            </span>
+          </button>
+        </span>
+      </div>
+      <ul
+        className="list-group"
+      >
+        <span
+          className="text-center text-muted"
+        >
+          No tasks 
+          active
+          .
+        </span>
+      </ul>
+    </div>
+    <div
+      className="col-sm"
+    >
+      <div
+        className="row"
+      >
+        <h6
+          className="text-center mt-2 text-capitalize col-sm-11"
+        >
+          completed
+        </h6>
+        <span
+          className="d-inline-block"
+          tabIndex="0"
+          title="Sort by complexity"
+        >
+          <button
+            className="close col-sm-1"
+            onClick={[Function]}
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+            >
+              ▾
+            </span>
+          </button>
+        </span>
+      </div>
+      <ul
+        className="list-group"
+      >
+        <span
+          className="text-center text-muted"
+        >
+          No tasks 
+          completed
+          .
+        </span>
+      </ul>
+    </div>
+    <div
+      className="col-sm"
+    >
+      <div
+        className="row"
+      >
+        <h6
+          className="text-center mt-2 text-capitalize col-sm-11"
+        >
+          onhold
+        </h6>
+        <span
+          className="d-inline-block"
+          tabIndex="0"
+          title="Sort by complexity"
+        >
+          <button
+            className="close col-sm-1"
+            onClick={[Function]}
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+            >
+              ▾
+            </span>
+          </button>
+        </span>
+      </div>
+      <ul
+        className="list-group"
+      >
+        <span
+          className="text-center text-muted"
+        >
+          No tasks 
+          onhold
+          .
+        </span>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot test on deleted tasks view with tasks 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row main-screen"
+  >
+    <div
+      className="col-sm"
+    >
+      <div
+        className="row"
+      >
+        <h6
+          className="text-center mt-2 text-capitalize col-sm-11"
+        >
+          deleted
+        </h6>
+        <span
+          className="d-inline-block"
+          tabIndex="0"
+          title="Sort by complexity"
+        >
+          <button
+            className="close col-sm-1"
+            onClick={[Function]}
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+            >
+              ▾
+            </span>
+          </button>
+        </span>
+      </div>
+      <ul
+        className="list-group"
+      >
+        <li
+          className="list-group-item"
+        >
+          <button
+            className="btn btn-link text-break"
+            onClick={[Function]}
+          >
+            test
+          </button>
+          <span
+            className="badge badge-info"
+          >
+            0
+          </span>
+          <button
+            aria-expanded="false"
+            aria-haspopup="true"
+            className="close ml-2"
+            data-toggle="dropdown"
+            id="dropdownMenuButton"
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+            >
+              ⁝
+            </span>
+          </button>
+          <div
+            aria-labelledby="dropdownMenuButton"
+            className="dropdown-menu"
+          >
+            <button
+              className="dropdown-item"
+              onClick={[Function]}
+            >
+              Edit
+            </button>
+            <div
+              className="dropdown-divider"
+            />
+            <span
+              className="dropdown-subheading"
+            >
+              Change Status
+            </span>
+            <button
+              className="dropdown-item text-capitalize"
+              disabled={false}
+              onClick={[Function]}
+            >
+              created
+            </button>
+            <button
+              className="dropdown-item text-capitalize"
+              disabled={false}
+              onClick={[Function]}
+            >
+              onhold
+            </button>
+          </div>
+          <button
+            className="close"
+            onClick={[Function]}
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+              className="delete-btn"
+            >
+              ×
+            </span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot test on deleted tasks view without any tasks 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row main-screen"
+  >
+    <div
+      className="col-sm"
+    >
+      <div
+        className="row"
+      >
+        <h6
+          className="text-center mt-2 text-capitalize col-sm-11"
+        >
+          deleted
+        </h6>
+        <span
+          className="d-inline-block"
+          tabIndex="0"
+          title="Sort by complexity"
+        >
+          <button
+            className="close col-sm-1"
+            onClick={[Function]}
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+            >
+              ▾
+            </span>
+          </button>
+        </span>
+      </div>
+      <ul
+        className="list-group"
+      >
+        <span
+          className="text-center text-muted"
+        >
+          No tasks 
+          deleted
+          .
+        </span>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

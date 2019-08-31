@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { TaskListItem } from './TaskListItem';
-import { TASK_NEXT_STATUS, Enums } from '../constants';
+import { TASK_NEXT_STATUS, Enums } from '../../constants';
 import { getKeyFromValue } from '../../utils';
 
 export const TasksList = React.memo(props => {
