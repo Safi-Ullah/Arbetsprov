@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Enums } from '../constants';
+import { Enums } from '../../constants';
 import { TasksList } from '../tasksList';
 import { sortDescending, sortAscending } from '../../utils';
 
@@ -56,12 +56,8 @@ DisplayScreen.propTypes = {
     displayConfirmationDialog: PropTypes.func.isRequired,
     displayEditTaskModal: PropTypes.func.isRequired,
     selectedScreen: PropTypes.number.isRequired,
-    tasks: PropTypes.array,
+    tasks: PropTypes.array.isRequired,
     changeStatus: PropTypes.func.isRequired,
     tasksSortBy: PropTypes.object.isRequired,
     toggleSorting: PropTypes.func.isRequired
-};
-
-DisplayScreen.defaultProps = {
-    tasks: []
 };

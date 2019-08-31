@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Navbar } from '../navbar';
-import { PromptMessages } from '../constants';
+import { PromptMessages, Enums } from '../../constants';
 import { ConfirmationDialog } from '../common';
 import { EditTaskModal } from '../editTaskModal';
 import { DisplayScreen } from '../displayScreen';
@@ -44,21 +44,41 @@ export const App = props => {
 };
 
 App.propTypes = {
-    addTask: PropTypes.func.isRequired,
-    setNewTask: PropTypes.func.isRequired,
-    removeTask: PropTypes.func.isRequired,
-    showConfirmationDialog: PropTypes.bool.isRequired,
-    displayConfirmationDialog: PropTypes.func.isRequired,
-    hideConfirmationDialog: PropTypes.func.isRequired,
-    showEditTaskModal: PropTypes.bool.isRequired,
-    displayEditTaskModal: PropTypes.func.isRequired,
-    hideEditTaskModal: PropTypes.func.isRequired,
-    editTask: PropTypes.func.isRequired,
+    addTask: PropTypes.func,
+    setNewTask: PropTypes.func,
+    removeTask: PropTypes.func,
+    showConfirmationDialog: PropTypes.bool,
+    displayConfirmationDialog: PropTypes.func,
+    hideConfirmationDialog: PropTypes.func,
+    showEditTaskModal: PropTypes.bool,
+    displayEditTaskModal: PropTypes.func,
+    hideEditTaskModal: PropTypes.func,
+    editTask: PropTypes.func,
     newTask: PropTypes.object,
     tasks: PropTypes.array,
-    changeStatus: PropTypes.func.isRequired,
-    selectedScreen: PropTypes.number.isRequired,
-    setSelectedScreen: PropTypes.func.isRequired,
-    tasksSortBy: PropTypes.object.isRequired,
-    toggleSorting: PropTypes.func.isRequired
+    changeStatus: PropTypes.func,
+    selectedScreen: PropTypes.number,
+    setSelectedScreen: PropTypes.func,
+    tasksSortBy: PropTypes.object,
+    toggleSorting: PropTypes.func
+};
+
+App.defaultProps = {
+    addTask: () => {},
+    setNewTask: () => {},
+    removeTask: () => {},
+    showConfirmationDialog: false,
+    displayConfirmationDialog: () => {},
+    hideConfirmationDialog: () => {},
+    showEditTaskModal: false,
+    displayEditTaskModal: () => {},
+    hideEditTaskModal: () => {},
+    editTask: () => {},
+    newTask: {},
+    tasks: [],
+    changeStatus: () => {},
+    selectedScreen: Enums.APP_SCREENS.dashboard,
+    setSelectedScreen: () => {},
+    tasksSortBy: {},
+    toggleSorting: () => {}
 };

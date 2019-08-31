@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test show task dropdown actions 1`] = `
+<div
+  aria-labelledby="dropdownMenuButton"
+  className="dropdown-menu"
+>
+  <button
+    className="dropdown-item"
+    onClick={[Function]}
+  >
+    Edit
+  </button>
+</div>
+`;

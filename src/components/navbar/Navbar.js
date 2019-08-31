@@ -1,5 +1,6 @@
 import React from 'react';
-import { Enums } from '../constants';
+import PropTypes from 'prop-types';
+import { Enums } from '../../constants';
 import { getUniqueId } from '../../utils';
 
 export const Navbar = ({ addTask, setNewTask,
@@ -48,3 +49,10 @@ export const Navbar = ({ addTask, setNewTask,
             </form>
         </div>
     </nav>;
+
+Navbar.propTypes = {
+    addTask: PropTypes.func.isRequired,
+    setNewTask: PropTypes.func.isRequired,
+    newTask: PropTypes.object.isRequired,
+    setSelectedScreen: PropTypes.func.isRequired
+};

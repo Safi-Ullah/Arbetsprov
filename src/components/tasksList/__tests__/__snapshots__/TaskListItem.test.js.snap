@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test show taskslist item 1`] = `
+<li
+  className="list-group-item"
+>
+  <button
+    className="btn btn-link text-break"
+    onClick={[Function]}
+  >
+    test
+  </button>
+  <span
+    className="badge badge-info"
+  >
+    0
+  </span>
+  <button
+    aria-expanded="false"
+    aria-haspopup="true"
+    className="close ml-2"
+    data-toggle="dropdown"
+    id="dropdownMenuButton"
+    type="button"
+  >
+    <span
+      aria-hidden="true"
+    >
+      ⁝
+    </span>
+  </button>
+  <div
+    aria-labelledby="dropdownMenuButton"
+    className="dropdown-menu"
+  >
+    <button
+      className="dropdown-item"
+      onClick={[Function]}
+    >
+      Edit
+    </button>
+  </div>
+  <button
+    className="close"
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      aria-hidden="true"
+      className="delete-btn"
+    >
+      ×
+    </span>
+  </button>
+</li>
+`;

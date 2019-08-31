@@ -18,5 +18,9 @@ export const Enums = {
     SORT_BY_COMPLEXITY: {
         ascending: 1,
         descending: 2
+    },
+    TEST_TYPES: {
+        dom: 'Dom test',
+        snapshot: 'Snapshot test'
     }
 };
